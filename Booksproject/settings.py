@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'Booksproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Books Database',
         'USER': 'root',
         'PASSWORD': '',
